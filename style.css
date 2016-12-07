@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: "微軟正黑體";
+}
+/*插入導覽列*/
+.nav{
+    position: fixed;
+    top: 50%;
+}
+.nav ul li{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    background-image: url(./src/pic/unselect.png);
+    background-repeat: no-repeat; 
+}
+.nav ul .active{
+    background-image: url(select.png);
+}
+
+/*每頁顯示的圖片*/
+.TextView_VR{
+    background-color: rgba(256,256,256,0.8);
+    max-width: 550px;
+    line-height: 1.8em;
+    /*height: 300px;*/
+    padding: 30px;
+    margin: 80px 100px 150px;
+    display: inline-block;
+}
+.TextView_AlphaGo{
+    background-color: rgba(256,256,256,0.8);
+    width: 480px;
+    line-height: 1.8em;
+    /*height: 300px;*/
+    padding: 30px;
+    margin: 500px 80px;
+    display: inline-block;
+}
+.TextViewTitle{
+    text-align: center;
+    height: 2em
+}
+.p01{
+    background-image: url(http://www.pjchender.com/pjchender_blog/MaCloud_jQuery/images/p01.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.p02{
+    background-image: url(./src/pic/HTC_Vive.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.p03{
+    background-image: url(./src/pic/alphaGo.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.p04{
+    background-image: url(http://www.pjchender.com/pjchender_blog/MaCloud_jQuery/images/p04.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.p05{
+    background-image: url(http://www.pjchender.com/pjchender_blog/MaCloud_jQuery/images/p05.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.gotop{
+    color: rgba(226, 248, 156, 0.9);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
