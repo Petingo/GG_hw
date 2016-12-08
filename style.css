@@ -22,8 +22,17 @@ body{
 .nav ul .active{
     background-image: url(select.png);
 }
-
-/*每頁顯示的圖片*/
+.Intro{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(256,256,256,0.8);
+    max-width: 550px;
+    line-height: 1.8em;
+    /*height: 300px;*/
+    padding: 30px;
+    display: inline-block;
+}
 .TextView_VR{
     background-color: rgba(256,256,256,0.8);
     max-width: 550px;
@@ -44,10 +53,10 @@ body{
 }
 .TextViewTitle{
     text-align: center;
-    height: 2em
+    height: 1.8em
 }
 .p01{
-    background-image: url(http://www.pjchender.com/pjchender_blog/MaCloud_jQuery/images/p01.jpg);
+    background-image: url(./src/pic/Cover.jpg);
     background-size: cover;
     height: 100vh;
 }
