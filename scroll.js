@@ -87,8 +87,23 @@ $(document).ready(function() {
     })
     
     function select(x){
-        //$(".nav ul li").css("opacity", "0.8");
-        $(".nav ul li").eq(x).css("opacity", "0.9");
+        for(var i = 0 ; i <= num_li ; i++){
+            if(i==x){
+                $(".nav ul li").css("opacity", "0.9");
+            }else{
+                $(".nav ul li").eq(i).css("opacity", "0.8");
+                $(".nav ul li").eq(i).hover(function(){
+                    $(this).css("opacity", "0.9");
+                })
+            }
+        }
+        //第一次用滑鼠點選後hover效果會消失
+//        $(".nav ul li").css("opacity", "0.8");
+////        $(".nav ul li").hover(function(){
+////            $(this).css("opacity", "0.9");
+////        })
+////        
+//        $(".nav ul li").eq(x).css("opacity", "0.9");
     }
     //  點擊 gotop 時回到頂端
     $(".gotop").click(function(){
