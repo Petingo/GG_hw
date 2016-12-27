@@ -35,7 +35,7 @@ $(document).ready(function() {
         })
     })
 
-    //  點選右方導覽列時會到指定圖片
+      點選右方導覽列時會到指定圖片
     for (var i = 0; i <= num_li; i++) {
         $(".nav li").eq(i).click({
             id: i
@@ -120,4 +120,7 @@ $(document).ready(function() {
             $(".gotop").fadeOut();
         }
     });
+    $(window).resize(function() {
+        ready();
+    })
 })
