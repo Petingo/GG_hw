@@ -128,10 +128,7 @@ a{
 }
 .MyProduct_youtube{
     height: 45%;
-    width: 60%;
-    position:relative;
-    left: 50%;
-    margin-left: -30%
+    width: 100%;
     
 }
 .p01{
