@@ -4,15 +4,15 @@ $(document).ready(function() {
     
     var n = 1;
     var moving = 0;
-    var screen_height_avg = ($(window).height()-25-5*8) / (num_li);
-    
-    for(var i = 1 ; i <= num_li ; i++){
-        $(".p" + i).css("height", screen_height_avg);
-    }
-    
-    for(var i = 1 ; i <= num_li ; i++){
-        $(".li_content").eq(i).css("padding-top",screen_height_avg/4);   
-    }
+//    var screen_height_avg = ($(window).height()-25-5*8) / (num_li);
+//    
+//    for(var i = 1 ; i <= num_li ; i++){
+//        $(".p" + i).css("height", screen_height_avg);
+//    }
+//    
+//    for(var i = 1 ; i <= num_li ; i++){
+//        $(".li_content").eq(i).css("padding-top",screen_height_avg/4);   
+//    }
     $(window).mousewheel(function(e) {
         $("html, body").stop();
         if (moving == 0) {
