@@ -82,223 +82,6 @@ a{
 }
 .TextView_VR{
     background-color: rgba(256,256,256,0.75);
-    max-width: 35%;
-    max-height: 100%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    margin: 3% 4% 13% 10%;
-    display: inline-block;
-}
-.TextView_AlphaGo{
-    background-color: rgba(256,256,256,0.75);
-    width: 30%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    margin: 28% 63%;
-    display: inline-block;
-}
-.TextView_Battery{
-    background-color: rgba(256,256,256,0.75);
-    max-width: 30%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    margin: 5% 29%;
-    display: inline-block;
-}
-.TextView_MS{
-    background-color: rgba(256,256,256,0.6);
-    width: 25%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    margin: 4% 13%;
-    display: inline-block;
-}
-.TextView_Arm{
-    background-color: rgba(256,256,256,0.75);
-    width: 30%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    margin: 4% 45%;
-    display: inline-block;
-}
-.TextView_Pizza{
-    background-color: rgba(256,256,256,0.5);
-    width: 28%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    margin: 25% 12%;
-    display: inline-block;
-}
-.TextView_MyProduct{
-    line-height: 1.8em;
-    background-color: rgba(256,256,256,0.5);
-    width: 55%;
-    height: 85%;
-    margin: 1% 38%;
-    padding: 2%;
-    display: inline-block;
-}
-.TextViewTitle{
-    text-align: center;
-    height: 1.8em
-}
-.TextViewTitle_final{
-    height: 1.8em
-}
-.p01{
-    background-image: url(./src/pic/Cover.jpg);
-    background-size: cover;
-    background-color: rgba(255,255,255,0.5);
-    height: 100vh;
-    width: 100vw;
-}
-.p02{
-    background-image: url(./src/pic/HTC_Vive.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.p03{
-    background-image: url(./src/pic/alphaGo.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.p04{
-    background-image: url(./src/pic/flexibleBattery.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.p05{
-    background-image: url(./src/pic/MS.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.p06{
-    background-image: url(./src/pic/FackArm.jpeg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.p07{
-    background-image: url(./src/pic/Pizza.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.p08{
-    background-image: url(./src/pic/MP.png);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-.gotop{
-    background-color: rgba(226, 248, 156, 0.9);
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.reference_content{
-    background-color: rgba(255,255,255,0.85);
-    margin: 3%;
-    padding: 3%;
-    height: inherit;
-    line-height: 2em;
-}
-@media screen and (max-width: 1500px) { 
-*{
-    padding: 0;
-    margin: 0;
-}
-.container{
-    width: 100vw;
-    height: 100vh;
-}
-body{
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    font-family: "微軟正黑體";
-}
-a{
-    text-decoration: none;
-    color: gray;
-}
-.a_ref{    
-    padding: 5px 0px 5px 0px;
-}
-/*插入導覽列*/
-.nav{
-    position: fixed;
-    top: 0%;
-}
-.nav ul li{
-    width: 110px;
-    padding: 10px;
-    cursor: pointer;
-    opacity: 0.8;
-}
-.nav ul li:hover {
-    opacity: 0.9;
-}
-.nav ul li:active {
-    opacity: 0.8;
-}
-
-.li_content{
-    vertical-align: middle;
-    text-align: center;
-    opacity: 1.0;
-}
-
-.first{
-    background-color: rgb(245,245,245);
-}
-.p1{
-    background-color: rgb(255,239,239);
-}
-.p2{
-    background-color: rgb(255,238,221);
-}
-.p3{
-    background-color: rgb(255,248,215);
-}
-.p4{
-    background-color: rgb(239,255,215);
-}
-.p5{
-    background-color: rgb(236,255,255);
-}
-.p6{
-    background-color: rgb(236,236,255);
-}
-.p7{
-    background-color: rgb(245,245,245);
-}
-
-
-.Intro{
-    position: relative;
-    top: 48%;
-    left: 50%;
-    background-color: rgba(256,256,256,0.75);
-    max-width: 30%;
-    line-height: 1.8em;
-    /*height: 300px;*/
-    padding: 2%;
-    display: inline-block;
-}
-.TextView_VR{
-    background-color: rgba(256,256,256,0.75);
     max-width: 80%;
     max-height: 100%;
     line-height: 1.8em;
@@ -358,12 +141,13 @@ a{
     display: inline-block;
 }
 .TextView_MyProduct{
+    background-color: rgba(256,256,256,0.75);
+    width: 80%;
+    max-height: 100%;
     line-height: 1.8em;
-    background-color: rgba(256,256,256,0.5);
-    width: 55%;
-    height: 90%;
-    margin: 1% 38%;
+    /*height: 300px;*/
     padding: 2%;
+    margin: 3% 4% 5% 180px;
     display: inline-block;
 }
 .TextViewTitle{
@@ -374,7 +158,8 @@ a{
     height: 1.8em;
 }
 .MyProduct_youtube{
-    height: 45%;
+    max-height: 60%;
+    width: 100%;
 }
 .p01{
     background-image: url(./src/pic/Cover.jpg);
@@ -439,4 +224,3 @@ a{
     height: inherit;
     line-height: 2em;
 }
-} 
